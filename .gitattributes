@@ -1,0 +1,4 @@
+# Disables collection of language statistics for libraries.
+libs/GLEW/include/GL/* linguist-vendored
+libs/GLFW/include/GLFW/* linguist-vendored
+libs/ImGui/include/* linguist-vendored
