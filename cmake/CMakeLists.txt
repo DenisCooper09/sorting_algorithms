@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 project(sorting_algorithms VERSION 0.1 LANGUAGES CXX)
 
-
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--stack,256000000")
 
 # ---------------- SOURCES ----------------
 set(SOURCES_DIR ../src)
